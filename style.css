@@ -1,0 +1,39 @@
+.clock {
+    color:white;
+  font-size: 16em;
+  font-style:bold;
+  text-align: center;
+  margin: auto;
+  background: black;
+  font-family:verdana;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+    border: 3em;
+    border-color: white;
+}
+
+body{
+    background: black;
+}
+
+A{
+    position:absolute; 
+    bottom:0; 
+    right:0;
+    background-size: 5px
+}
+
+.setTime {
+  font-size: 4em;
+    font-style:bold;
+  text-align: center;
+  margin: auto;
+  background: black;
+  font-family:verdana;
+    position: absolute; 
+    top: 90%; 
+    left: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+}
